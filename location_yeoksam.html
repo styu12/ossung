@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="location.css">
+    <title>오성회계법인</title>
+</head>
+<body>
+    <header>
+        <img onclick="location.href='index.html'" src="https://i.ibb.co/qjJrgW4/logo.jpg" alt="">
+        <ul class="nav">
+            <li><a href="greeting.html">대표 인사말</a></li>
+            <li><a href="profile_intro.html">오성 프로필</a></li>
+            <li><a href="service.html">서비스</a></li>
+            <li><a href="location.html">오시는 길</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="location" style="padding:10% 0 15% 15%;">
+            <h1>찾아<br>오시는 길</h1>
+            <div class="way">
+                <div>
+                    <h2>역삼점</h2>
+                    <h3>주소</h3><br><br>
+                    <p>서울특별시 강남구 테헤란로113길 7(백암아트센터)<br>
+                        (지번)서울특별시 강남구 삼성동 170-5<br>
+                        (우)06173</p>
+                </div>
+                <div>
+                    <h3>전철</h3><br><br>
+                    <p>2호선 삼성역(무역센터) 8번출구: 도보 약 5분 소요</p>
+                </div>
+                <div>
+                    <h3>버스</h3><br><br>
+                    <p>정류소 ID - 23196 (한국무역센터.삼성역 방면) : 도보 약 2분 소요</p>
+                </div>
+            </div>
+        </div>
+        <div id="map" style="width:100%;height:100%;"></div>
+    </main>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=5a7igvezuu&callback=initMap"></script>
+    <script type="text/javascript">
+        var map = null;
+
+        function initMap() {
+            map = new naver.maps.Map('map', {
+                center: new naver.maps.Point(127.06581880836028, 37.510405181497966),
+                zoom: 15,
+            });
+            var marker = new naver.maps.Marker({
+                position: new naver.maps.Point(127.06581880836028, 37.510405181497966),
+                map: map
+            });
+        }
+    </script>
+</body>
+</html>

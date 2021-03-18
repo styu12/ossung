@@ -1,0 +1,106 @@
+@import "reset.css";
+@font-face {
+    src: url("./AktivGrotesk/AktivGroteskCorp-Regular.ttf");
+    font-family: "aktiv";
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "aktiv";
+}
+
+header {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    align-items: center;    
+    padding-left: 177px;
+}
+header img {
+    cursor: pointer;
+    margin-right: 150px;
+    width: 96px;
+    height: 17px;
+}
+
+header .nav {
+    display: flex;
+    width: 600px;
+    height: 5vh;
+    justify-content: space-around;
+    align-items: center;
+}
+header .nav a {
+    text-decoration: none;
+    color: #073290;
+    font-size: 14px;
+    font-weight: bold;
+}
+header .nav a:hover {
+    border-bottom: 3px solid #073290;
+    padding-bottom: 3px;
+}
+/* 여기까지 header */
+
+main {
+    width: 100%;
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    background: linear-gradient(to right, #083190, #041948 );
+}
+main .service_left {
+    padding-left: 120px;
+    display: flex;
+    height: 95%;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding-top: 60px;
+}
+.service_left h1 {
+    font-size: 35px;
+    line-height: 1.3;
+}
+.service_nav div {
+    width: 400px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 10px 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.service_nav div:nth-of-type(1) {
+    background-image: linear-gradient(rgba(8,48,140,0.4), rgba(8,48,140,0.4) ),url('https://i.ibb.co/Kj6mGX2/Three-people-standing-in-business-center-and-talking.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.service_nav div:nth-of-type(1):hover {
+    background-image: url('https://i.ibb.co/Kj6mGX2/Three-people-standing-in-business-center-and-talking.jpg');
+}
+.service_nav div:nth-of-type(2) {
+    background-image: linear-gradient(rgba(8,48,140,0.4), rgba(8,48,140,0.4) ),url('https://i.ibb.co/NKMjfg1/service2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.service_nav div:nth-of-type(2):hover {
+    background-image: url('https://i.ibb.co/NKMjfg1/service2.jpg');
+}
+.service_nav div:nth-of-type(3) {
+    background-image: linear-gradient(rgba(8,48,140,0.4), rgba(8,48,140,0.4) ),url('https://i.ibb.co/Mspq01f/Business-concepts-Two-men-are-consulting-a-business-Two-men-pointing-at-a-tablet-laptop-graphs-calcu.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.service_nav div:nth-of-type(3):hover {
+    background-image: url('https://i.ibb.co/Mspq01f/Business-concepts-Two-men-are-consulting-a-business-Two-men-pointing-at-a-tablet-laptop-graphs-calcu.jpg');
+}
+
+.service_right {
+    height: 75%;
+    background-image: url('https://i.ibb.co/J2F35QG/Businessman-and-businesswoman-with-medical-mask-working-in-office-Covid-19-time.jpg');
+    background-size: cover;
+    background-position: center;
+}
