@@ -1,12 +1,12 @@
 @import "reset.css";
 @font-face {
-    src: url("./AktivGrotesk/AktivGroteskCorp-Regular.ttf");
-    font-family: "aktiv";
+    src: url("./NotoSansCJKkr/NotoSansCJKkr-Regular.otf");
+    font-family: "notosans";
 }
 
 * {
     box-sizing: border-box;
-    font-family: "aktiv";
+    font-family: "notosans";
 }
 
 header {
@@ -71,11 +71,11 @@ main div h1 {
     background-image: url('https://i.ibb.co/gDCrSxK/back-yeoksam.jpg');
 }
 .yeoksam:hover {
-    background-image: linear-gradient(to right, #041948, rgba(7, 50, 144, 0.19) ),url('image/back_yeoksam.jpg');
+    background-image: linear-gradient(to right, #041948, rgba(7, 50, 144, 0.19) ),url('https://i.ibb.co/gDCrSxK/back-yeoksam.jpg');
 }
 .yeoido {
     background-image: url('https://i.ibb.co/9gw080z/back-yeoido.jpg');
 }
 .yeoido:hover {
-    background-image: linear-gradient(to left, #041948, rgba(7, 50, 144, 0.19) ),url('image/back_yeoido.jpg');
+    background-image: linear-gradient(to left, #041948, rgba(7, 50, 144, 0.19) ),url('https://i.ibb.co/9gw080z/back-yeoido.jpg');
 }

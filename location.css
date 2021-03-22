@@ -1,7 +1,11 @@
 @import "reset.css";
 @font-face {
-    src: url("./NotoSerifCJKkr-hinted/NotoSerifCJKkr-Black.otf");
-    font-family: "noto";
+    src: url("./NotoSerifCJKkr/NotoSerifCJKkr-Regular.otf");
+    font-family: "notoserif";
+}
+@font-face {
+    src: url("./NotoSansCJKkr/NotoSansCJKkr-Regular.otf");
+    font-family: "notosans";
 }
 
 * {
@@ -59,6 +63,7 @@ main {
     font-weight: bold;
     line-height: 1.4;
     letter-spacing: 1.65px;
+    font-family: "notosans";
 }
 .transit {
     display: flex;
@@ -69,6 +74,7 @@ main {
 .transit h2 {
     font-size: 22px;
     margin: 70px 0 50px 0;
+    font-family: "notoserif";
 }
 .transit p {
     line-height: 1.8;
@@ -94,6 +100,7 @@ main {
     cursor: pointer;
     margin-bottom: 20px;
     outline: none;
+    font-family: "notoserif";
 }
 .transit button:hover {
     background-color: white;
@@ -117,13 +124,16 @@ main {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 35px;
+    font-family: "notoserif";
 }
 .way div h3 {
     font-size: 17px;
     font-weight: 600;
+    font-family: "notosans";
 }
 .way div p {
     font-size: 12px;
     line-height: 2;
     opacity: 0.8;
+    font-family: "notosans";
 }

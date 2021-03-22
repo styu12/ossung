@@ -3,10 +3,14 @@
     src: url("./AktivGrotesk/AktivGroteskCorp-Regular.ttf");
     font-family: "aktiv";
 }
+@font-face {
+    src: url("./NotoSansCJKkr/NotoSansCJKkr-Regular.otf");
+    font-family: "notosans";
+}
 
 * {
     box-sizing: border-box;
-    font-family: "aktiv";
+    font-family: "notosans";
 }
 
 header {
@@ -61,6 +65,7 @@ main .service_left {
 main .service_left h1 {
     font-size: 35px;
     line-height: 1.3;
+    font-family: "aktiv";
 }
 main .service_left img {
     width: 70px;
