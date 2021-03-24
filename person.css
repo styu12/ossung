@@ -70,6 +70,7 @@ main {
     cursor: pointer;
 }
 .person {
+    margin-top: 10px;
     width: 100%;
     height: 560px;
     background-color: white;
@@ -113,6 +114,7 @@ main {
 }
 .person_career div h2 {
     font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
     margin-bottom: 10px;
     font-weight: bold;
 }

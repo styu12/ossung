@@ -68,14 +68,18 @@ main div h1 {
     font-weight: 600;
 }
 .yeoksam {
-    background-image: url('https://i.ibb.co/gDCrSxK/back-yeoksam.jpg');
+    background-image: linear-gradient(to right, 
+ rgba(7, 50, 144, 0.30) , rgba(7, 50, 144, 0.30) ),url(https://i.ibb.co/gDCrSxK/back-yeoksam.jpg);
 }
 .yeoksam:hover {
-    background-image: linear-gradient(to right, #041948, rgba(7, 50, 144, 0.19) ),url('https://i.ibb.co/gDCrSxK/back-yeoksam.jpg');
+    background-image: linear-gradient(to right, 
+ rgba(7, 50, 144, 0.70) , rgba(7, 50, 144, 0.70) ),url(https://i.ibb.co/gDCrSxK/back-yeoksam.jpg);
 }
 .yeoido {
-    background-image: url('https://i.ibb.co/9gw080z/back-yeoido.jpg');
+    background-image: linear-gradient(to left, 
+ rgba(7, 50, 144, 0.19) , rgba(7, 50, 144, 0.19) ),url(https://i.ibb.co/9gw080z/back-yeoido.jpg);
 }
 .yeoido:hover {
-    background-image: linear-gradient(to left, #041948, rgba(7, 50, 144, 0.19) ),url('https://i.ibb.co/9gw080z/back-yeoido.jpg');
+    background-image: linear-gradient(to left, 
+ rgba(7, 50, 144, 0.45) , rgba(7, 50, 144, 0.45) ),url(https://i.ibb.co/9gw080z/back-yeoido.jpg);
 }

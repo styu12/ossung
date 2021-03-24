@@ -10,7 +10,7 @@
 
 * {
     box-sizing: border-box;
-    font-family: "notosans";
+    font-family: 'Noto Sans KR', sans-serif;
 }
 
 header {
@@ -30,8 +30,7 @@ header img {
 header .nav {
     display: flex;
     width: 600px;
-    height: 5vh;
-    justify-content: space-around;
+    height: 5.5vh;
     align-items: center;
 }
 header .nav a {
@@ -39,35 +38,42 @@ header .nav a {
     color: #073290;
     font-size: 14px;
     font-weight: bold;
+    margin-right: 79px;
 }
 header .nav a:hover {
     border-bottom: 3px solid #073290;
     padding-bottom: 3px;
 }
 
-main {
+#backVideo {
+    object-fit: cover;
     width: 100%;
     height: 95vh;
-    padding-top: 15vh;
-    background-image: url('https://i.ibb.co/d0tMRZh/Downtown-cityscape-of-Seoul.jpg');
-    background-position: center;
-    background-size: cover;
+    background-blend-mode: saturation;
+  }
+main {
+    position: fixed;
+    width: 100%;
+    top:5.5vh;
+    height: 94.5vh;
+    padding-top: 17vh;
 }
 .banner {
     width: 100%;
     height: 507px;
     color: white;
-    background-color: rgba(7, 50, 144, 0.5);
-    padding: 57px 0 108px 177px;
+    background: linear-gradient( 90deg
+ , rgba(4,25,72,1) 0%, rgba(7,50,144,0.2) 75%);
+    padding: 71px 0 108px 172px;
 }
 .banner h1 {
     font-size: 75px;
-    margin-bottom: 37px;
+    margin-bottom: 55px;
     font-family: "notoserif";
 }
 .banner > p {
     line-height: 1.5;
-    opacity: 0.8;
+    opacity: 0.9;
     height: 120px;
     font-size: 14px;
     margin-bottom: 30px;
@@ -89,6 +95,10 @@ main {
     margin-right: 30px;
     cursor: pointer;
     outline: none;
+}
+.banner button .line {
+    border-bottom: 2px solid white;
+    width: 60px;
 }
 .banner button:hover {
     background-color: white;
