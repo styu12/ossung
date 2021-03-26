@@ -13,6 +13,10 @@
     font-family: "notoserif";
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     width: 100%;
     height: 5vh;
@@ -62,6 +66,9 @@ main .service_left {
     color: white;
     padding-top: 60px;
 }
+main .service_left a {
+    color: white;
+}
 .service_left h1 {
     font-size: 35px;
     line-height: 1.3;
@@ -81,28 +88,28 @@ main .service_left {
     margin-top: 20px;
     cursor: pointer;
 }
-.service_nav div:nth-of-type(1) {
+.service_nav a:nth-of-type(1) div {
     background-image: linear-gradient(rgba(8,48,140,0.4), rgba(8,48,140,0.4) ),url('https://i.ibb.co/Kj6mGX2/Three-people-standing-in-business-center-and-talking.jpg');
     background-size: cover;
     background-position: center;
 }
-.service_nav div:nth-of-type(1):hover {
+.service_nav a:nth-of-type(1) div:hover {
     background-image: url('https://i.ibb.co/Kj6mGX2/Three-people-standing-in-business-center-and-talking.jpg');
 }
-.service_nav div:nth-of-type(2) {
+.service_nav a:nth-of-type(2) div {
     background-image: linear-gradient(rgba(8,48,140,0.4), rgba(8,48,140,0.4) ),url('https://i.ibb.co/NKMjfg1/service2.jpg');
     background-size: cover;
     background-position: center;
 }
-.service_nav div:nth-of-type(2):hover {
+.service_nav a:nth-of-type(2) div:hover {
     background-image: url('https://i.ibb.co/NKMjfg1/service2.jpg');
 }
-.service_nav div:nth-of-type(3) {
+.service_nav a:nth-of-type(3) div {
     background-image: linear-gradient(rgba(8,48,140,0.4), rgba(8,48,140,0.4) ),url('https://i.ibb.co/Mspq01f/Business-concepts-Two-men-are-consulting-a-business-Two-men-pointing-at-a-tablet-laptop-graphs-calcu.jpg');
     background-size: cover;
     background-position: center;
 }
-.service_nav div:nth-of-type(3):hover {
+.service_nav a:nth-of-type(3) div:hover {
     background-image: url('https://i.ibb.co/Mspq01f/Business-concepts-Two-men-are-consulting-a-business-Two-men-pointing-at-a-tablet-laptop-graphs-calcu.jpg');
 }
 
